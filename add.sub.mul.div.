@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+	int a,b,add,sub,mul,mod;
+	float div;
+	cout<<"enter any number";
+	cin>>a>>b;
+	add=a+b;
+	sub=a-b;
+	mul=a*b;
+	div=a%b;
+	cout<<"add" <<add<<endl;
+	cout<<"sub" <<sub<<endl;
+	cout<<"mul" <<mul<<endl;
+	cout<<"div" <<div<<endl;
+	return 0;
+}
