@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int sum (int x,int y,int z);
+int sum (int x,int y,int z)
+{ 
+int d;
+d=x+y+z;
+return d;
+}
+int main()
+{
+int a,b,c,add;
+cout <<"enter three number";
+cin>>a>>b>>c;
+add=sum(a,b,c);
+cout<<"add="<<add;
+return 0;
+}
